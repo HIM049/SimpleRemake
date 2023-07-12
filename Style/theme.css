@@ -1,0 +1,13 @@
+:root {
+    --fontColour: #fff;
+    --background: #414141;
+    --card-background: #353535;
+    
+}
+
+
+[data-theme="bright"] {
+    --fontColour: #000000;
+    --background: #ececec;
+    --card-background: #fff;
+}

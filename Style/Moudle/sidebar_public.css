@@ -1,0 +1,9 @@
+
+.sidebar{
+    position: fixed;
+    width: 260px;
+    box-sizing: border-box;
+    top: 265px;
+    right: 20px;
+    transition-duration: 10ms;
+}

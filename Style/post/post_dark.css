@@ -1,0 +1,87 @@
+a:link {
+    color: #2c8cd8;
+}
+
+
+/* 未被访问的链接 */
+
+a:visited {
+    color: #2c8cd8;
+}
+
+
+/* 已被访问的链接 */
+
+a:hover {
+    color: #aaa;
+}
+
+
+/* 鼠标悬浮在上的链接 */
+
+a:active {
+    color: #aaa;
+}
+
+
+/* 被点击时的链接 */
+
+a {
+    transition: 0.4s;
+}
+
+.sidebar {
+    width: 30%;
+    padding-left: 10px;
+}
+
+.post-box {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-right: 285px;
+}
+
+.post-background {
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+
+.post {
+    margin-bottom: 30px;
+}
+
+.post-body {
+    background: var(--card-background);
+    padding: var(--pageSpacing);
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+}
+
+.post-TopImg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.post-title {
+    font-size: 21px;
+    font-weight: 800;
+    padding: 15px;
+}
+
+.post-content {
+    line-height: 22px;
+    margin: 20px;
+}
+
+@media(max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}

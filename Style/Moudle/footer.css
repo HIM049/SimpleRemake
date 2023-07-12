@@ -1,0 +1,27 @@
+.footer {
+    height: 100px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background: #353535;
+    /* margin-top: -15px; */
+    line-height: 100px;
+    border-radius: 10px;
+    box-shadow: var(--boxshadow);
+    /* position: absolute; */
+}
+
+/* @media(max-width: 600px) {
+    .footer {
+        bottom: none;
+        left: none;
+    }
+} */
+
+.footer div {
+    margin-right: 10%;
+}
+
+.footer p {
+    color: #fff;
+    text-align: right;
+}

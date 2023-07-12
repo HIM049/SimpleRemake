@@ -1,0 +1,68 @@
+.navbar a:link {
+    color: #fff;
+}
+.navbar a:visited {
+    color: #fff;
+}
+.navbar a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+.navbar a:active {
+    color: #fff;
+}
+.hd-nav ul li a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
+}
+.hd-nav li:hover a {
+    color: #3498db;
+}
+.hd-title:hover {
+    color: #3498db;
+}
+
+.navbar {
+    position: fixed;
+    width: calc(100% - 20px);
+    max-width: 1000px;
+    height: 55px;
+    background: #353535ad;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 25%);
+    backdrop-filter: blur(9px);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.hd-title {
+    font-size: 18px;
+    font-weight: 800;
+    display: block;
+    padding: 0 0 0 20px;
+    position: relative;
+    line-height: 55px;
+    transition: 0.2s;
+}
+.hd-con {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hd-nav ul {
+    display: flex;
+    height: 55px;
+}
+.hd-nav li a {
+    display: block;
+    font-size: 15.5px;
+    font-weight: 600;
+    padding: 0 30px 0 0;
+    transition: 0.2s;
+    position: relative;
+    line-height: 55px;
+}
+
+.navbar-bracket{
+    height: 85px;
+}

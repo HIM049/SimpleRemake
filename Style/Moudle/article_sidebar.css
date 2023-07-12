@@ -1,0 +1,39 @@
+.article_sidebar a:link {
+    color: #fff;
+}
+.article_sidebar a:visited {
+    color: #fff;
+}
+.article_sidebar a:hover {
+    color: #fff;
+}
+.article_sidebar a:active {
+    color: #fff;
+}
+.tag-box:hover{
+    border-left: 5px solid white;
+}
+
+.atalog {
+	background: var(--card-background);
+	padding: 25px;
+	border-radius: 10px;
+	margin-bottom: var(--pageSpacing);
+	box-shadow: var(--boxshadow);
+}
+
+/* .atalog li {
+    padding-left: 15px;
+} */
+
+.atalog .tag-box {
+    padding: 10px;
+    transition: 0.2s;
+}
+.atalog .mb-2 {
+    padding-left: 10px;
+}
+
+.atalog .mb-2 .mb-2 {
+    padding-left: 10px;
+}
