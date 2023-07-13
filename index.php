@@ -39,8 +39,11 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
                         <img src="<?php echo thumb($this); ?>" />
                     </div>
                     <h2><?php $this->title() ?></h2>
-                    <p><?php $this->excerpt(150, '...');?></p>
-                    <p><?php $this->date('Y-m-d'); ?></p>
+                    <!-- 文章预览部分（还是感觉太丑了） -->
+                    <!-- <div class="article">
+                        <p><?php $this->excerpt(150, '...');?></p>
+                    </div> -->
+                    <p class="date"><?php $this->date('Y-m-d'); ?></p>
                 </div>
             </a>
         <?php endwhile; ?>

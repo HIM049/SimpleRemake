@@ -1,6 +1,8 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
+define('THE_TIME', '2021-10-05 00:00:00');
+
 function art_count($cid)
 {
 	$db = Typecho_Db::get();
@@ -50,7 +52,7 @@ date_default_timezone_set('Asia/Shanghai');
 function getBuildTime()
 {
 	// 在下面按格式输入本站创建的时间
-	$site_create_time = strtotime('2021-10-05 00:00:00');
+	$site_create_time = strtotime(THE_TIME);
 	$time = time() - $site_create_time;
 	if (is_numeric($time)) {
 		$value = array(

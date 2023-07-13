@@ -26,6 +26,9 @@
     padding-left: 15px;
 } */
 
+.article_sidebar {
+    top: 85px;
+}
 .atalog .tag-box {
     padding: 10px;
     transition: 0.2s;
